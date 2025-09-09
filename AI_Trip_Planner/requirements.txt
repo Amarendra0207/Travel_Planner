@@ -17,4 +17,4 @@ airportsdata
 python-docx
 
 
--e .
+
