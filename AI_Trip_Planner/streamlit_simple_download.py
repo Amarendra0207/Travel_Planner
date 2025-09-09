@@ -3,7 +3,7 @@ import requests
 import datetime
 import os
 
-BASE_URL = "http://localhost:8000"
+BASE_URL = "http://streamlit_simple_download.py"
 
 st.title("🌍 Travel Planner - Fixed Download")
 
@@ -60,3 +60,4 @@ if submit and user_input:
 st.markdown("---")
 st.markdown("**Note:** Make sure your server is running on port 8000")
 st.markdown("```uvicorn main:app --reload --port 8000```")
+
