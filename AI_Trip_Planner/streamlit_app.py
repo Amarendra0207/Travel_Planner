@@ -6,7 +6,7 @@ import os
 # from exception.exceptions import TradingBotException
 import sys
 
-BASE_URL = "http://localhost:8000"  # Backend endpoint
+BASE_URL = "https://travelplanner1.streamlit.app/"  # Backend endpoint
 
 st.set_page_config(
     page_title="🌍 Travel Planner Agentic Application",
@@ -184,4 +184,5 @@ if st.session_state.get('report_generated', False) and st.session_state.get('las
                 st.error("❌ Failed to generate Word document")
                 
         except Exception as e:
+
             st.error(f"❌ Export failed: {e}")
